@@ -1,0 +1,32 @@
+# Nombre del proyecto.
+name: cine_app_grupo_4
+
+# Versión del proyecto.
+version: 1.0.0+1
+
+# Entorno de ejecución requerido.
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+# Dependencias del proyecto.
+dependencies:
+  flutter:
+    sdk: flutter  # Dependencia del SDK de Flutter.
+  cupertino_icons: ^1.0.2  # Iconos específicos de Cupertino para la aplicación.
+  cached_network_image: ^3.3.1  # Caché de imágenes de red para mejorar el rendimiento.
+  video_player: ^2.2.11  # Reproductor de video para mostrar videos en la aplicación.
+  chewie: ^1.7.5  # Wrapper sobre el reproductor de video para facilitar su uso.
+  url_launcher: ^6.0.9  # Para abrir enlaces externos desde la aplicación.
+  sqflite: ^2.0.0
+  path_provider: ^2.0.0
+# Dependencias de desarrollo.
+dev_dependencies:
+  flutter_test:
+    sdk: flutter  # Dependencia de Flutter para pruebas.
+
+# Configuración específica de Flutter.
+flutter:
+  uses-material-design: true  # Utilizar el diseño de materiales.
+  assets:
+    - lib/ #directorio de recursos de la aplicacion
+    
